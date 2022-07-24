@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-container {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+}
+
+.grid-element {
+    background-color: lightgray;
+    border-style: solid; 
+    border-width: 1px; 
+    box-sizing: border-box;
+}
+
+.hovered {
+    background-color: black;
+}
+
+.enabled {
+    font-weight: bold;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+}
